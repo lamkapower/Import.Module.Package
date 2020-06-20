@@ -1,4 +1,3 @@
-# from package.application.db import people
 from package import *
 import datetime
 

@@ -9,6 +9,6 @@ if __name__ == "__main__":
         print(date.strftime('%Y %b %W %Hh:%Mm'))
         employee = people.Employees('Bill')
         employee_salary = salary.Salary(250000)
-        return print(f'годовая зарплата сотрудника: {people.Employees.get_employees(employee)} составляет {salary.Salary.calculate_salary(employee_salary)} руб')
+        print(f'годовая зарплата сотрудника: {people.Employees.get_employees(employee)} составляет {salary.Salary.calculate_salary(employee_salary)} руб')  
     
     main()
